@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-weight: bold;
+}
+
+header{
+    padding: 20px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.common-btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
