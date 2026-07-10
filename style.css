@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'inter', sans-serif;
 }
 
 .navbar{
@@ -29,7 +30,7 @@ header{
 .container{
     max-width: 1300px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .common-btn{
@@ -41,3 +42,38 @@ header{
     border-radius: 7px;
 }
 
+.hero img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hero{
+    position: relative;
+   
+}
+
+.hero-sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-sub h1{
+    font-size:60px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.hero-sub p{
+    max-width:700px;
+    line-height:1.6;
+    margin-bottom:40px;
+}
+
+.hero button{
+   margin-top: 230px;
+}
