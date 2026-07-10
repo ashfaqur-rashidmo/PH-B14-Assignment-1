@@ -78,6 +78,8 @@ header{
    margin-top: 230px;
 }
 
+
+
 /* Speakers Section */
 .speakers {
     padding: 20px 0;
@@ -132,3 +134,131 @@ header{
 }
 
 
+/* pricing section */
+.pricing{
+    padding: 20px 0;
+}
+
+.container-pricing{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.pricing h3{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #0D1B2A;
+}
+
+.sub-section{
+    color: #575757;
+    text-align: center;
+
+}
+
+.price-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.price-card{
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.price-head{
+    color: #888888;
+}
+
+.price-card h1{
+    margin-top: 10px;
+}
+
+hr{
+    margin: 20px 0;
+    border: 1px solid #E5E7EB;
+}
+
+#pricing ul li{
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.price-card ul li::marker{
+    color:blue;
+}
+
+.card-1-btn{
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    padding: 10px 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 304.66px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+}
+
+.price-card-2{
+    background: #0D1B2A;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.price-card2-head{
+    color: #60A5FA;
+
+}
+
+.price-card-2 h1{
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.price-card-2 ul li::marker{
+    color: #60A5FA;
+}
+
+.price-card-2 ul li{
+     gap: 10px;
+    margin-bottom: 20px;
+    color: #c9c2c2;
+}
+
+.price-head-2{
+    color: #60A5FA;
+
+}
+
+.pricing hr{
+    margin: 20px 0;
+    border: 1px solid #555555;
+}
+
+.price-head-2{
+  color: #888888;
+
+}
+
+.card-3-btn{
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+    padding: 10px 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 304.66px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+}
