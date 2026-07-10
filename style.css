@@ -207,6 +207,19 @@ hr{
     background-color: #FFFFFF;
 }
 
+.card-2-btn{
+    color: #FFFFFF;
+    border: 1px solid #2563EB;
+    padding: 10px 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 304.66px;
+    border-radius: 7px;
+    background-color: #2563EB;
+}
+
 .price-card-2{
     background: #0D1B2A;
     border: 1px solid #E5E7EB;
@@ -261,4 +274,91 @@ hr{
     width: 304.66px;
     border-radius: 7px;
     background-color: #FFFFFF;
+}
+
+
+/* Benefit section */
+
+.benefits{
+    padding:80px 0;
+    background:#fff;
+}
+
+
+.benefits h2{
+    text-align:center;
+    font-size:42px;
+    font-weight:700;
+    color:#111827;
+}
+
+.benefit-card ul li{
+    font-size:10px;
+}
+
+.sub-title{
+    text-align:center;
+    color:#6b7280;
+    font-size:17px;
+    max-width:650px;
+    margin:15px auto 50px;
+    line-height:1.6;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.benefit-card{
+    border:2px solid #3b82f6;
+    border-radius:14px;
+    padding:25px;
+    background:#fff;
+    transition:.3s;
+}
+
+
+.benefit-card img{
+    height:300px;
+    width: 300px;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.benefit-card h3{
+    font-size:20px;
+    color:#111827;
+    margin-bottom:18px;
+}
+
+.benefit-card ul{
+    padding-left:20px;
+}
+
+.benefit-card ul li{
+    margin-bottom:12px;
+    color:#444;
+    font-size:20px;
+    line-height:1.6;
+}
+
+
+
+/* Footer */
+footer{
+    background: #0D1B2A;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    display: flex;
+    gap: 20px;
 }
