@@ -345,17 +345,11 @@ hr{
 }
 
 
-
 /* Footer */
 footer{
     background: #0D1B2A;
     color: #FFFFFF;
     padding: 20px 0;
-}
-
-.footer{
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer-info{
@@ -368,7 +362,29 @@ footer{
     gap: 10px;
 }
 
-.footer-logo img{
-    width: 20px;
-    height: 20px;
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-policy{
+    display: flex;
+    gap: 20px;
+}
+
+.social-links i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap:15px;
 }
