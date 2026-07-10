@@ -362,3 +362,13 @@ footer{
     display: flex;
     gap: 20px;
 }
+
+.footer-logo{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo img{
+    width: 20px;
+    height: 20px;
+}
